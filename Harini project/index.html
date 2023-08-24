@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>presonal portfolio website</title>
+    <link rel="stylesheet"href="style.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <a href="#" class="Logo"><span>H</span>arini.</a>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Hire Me</a>
+        </nav>
+        <div class="header-text">
+        <p>FrontEnd Developer</p>
+        <h1>Hello, I'm <span>Harini</span> <br>From Cuddalore in Web developer.</h1>
+        </div>
+    </div>
+</div> 
+<!------about tag------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="image/photo-1618477388954-7852f32655ec.jpg" alt=""> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Completed B.sc Computer science Degree in Shrimati indhra Gandhi College trichy.And I'm complete My FrontEnd Developer Course in Besant Tenchnilogy,Porur,chennai and also completed one project in frontend.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Project')">Project</p>
+                </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Basic</span><br>C/C++</li>
+                            <li><span>HTML&CSS</span><br>Javascrpit</li>
+                            <li><span>FrameWork</span><br>Angular</li>
+                        </ul>
+                    </div>
+                <div class="tab-contents" id="Project">
+                    <ul>
+                        <li><span>website</span><br>portfolio</li>
+                        <li><span>Animation</span><br>Login Page</li>
+                        <li><span>Single Website</span><br>coffee Shop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----Services--->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="bi bi-phone"></i>
+                <h2>web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-code-slash"></i>
+                <h2>Web Delveloper</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="image/pinterestdownloader.com-1692330669.066404.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media app</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <ahref="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/pinterestdownloader.com-1692331156.944205.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media app</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <ahref="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/pinterestdownloader.com-1692330477.167174.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping app</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <ahref="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btm">See More</a>
+    </div>
+</div>
+<!----------------Contact tag---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="content-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="bi bi-send-fill"></i>harini@gmail.com</p>
+                <p><i class="bi bi-telephone"></i>9344062981</p>
+                <div class="social-icons">
+                    <ahref="https://instrgram.com/"><i class="bi bi-instagram"></i></a>
+                    <ahref=""><i class="bi bi-facebook"></i></a>
+                    <ahref=""><i class="bi bi-twitter"></i></a>
+                    <ahref=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a href="image/certificate dipolma.pdf"  download class="btm btm2">Download Cv</a>
+            </div>
+            <div class="content-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btm btm2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementByclassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+</body>
+</html>
